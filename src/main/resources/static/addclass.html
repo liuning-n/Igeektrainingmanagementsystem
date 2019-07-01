@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-3.4.0.js" ></script>
+    <script type="text/javascript" src="js/bootstrap.js" ></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css"/>
+    <script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <form class="form-inline" id="addclass">
+        <div class="form-group">
+            <label class="control-label ">班级名称：</label>
+            <input type="text" id="classname" name="classname" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label class="control-label ">计划人数：</label>
+            <input type="text" id="classname" name="classname" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label class="control-label ">班主任：</label>
+            <input type="text" id="classname" name="classname" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label class="control-label ">课程：</label>
+            <input type="text" id="classname" name="classname" class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label class="col-md-3 control-label">计划开班日期：</label>
+            <div class="col-md-5">
+                <input type="text" id="starttime" name="starttime" class="form-control" autocomplete="off"/>
+                <!--value='<fmt:formatDate value="${studentinfo.hiredate}" pattern="yyyy-MM-dd"/>'-->/>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-5 col-md-offset-3">
+                <button type="button" class="btn btn-primary" onclick="submitform()">立即提交</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
